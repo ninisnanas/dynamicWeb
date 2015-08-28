@@ -12,3 +12,13 @@ function toggleDaftarKegiatan() {
 	$("#kegiatan-personil").hide();
 	$("#daftar-kegiatan").toggle();
 }
+
+function toggleMasterKegiatan() {
+	$("#master-kegiatan").toggle();
+	$("#master-referensi").hide();
+}
+
+function toggleMasterReferensi() {
+	$("#master-kegiatan").hide();
+	$("#master-referensi").toggle();
+}
