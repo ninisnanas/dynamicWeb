@@ -1,4 +1,8 @@
-<?php if (!defined('DATATABLES')) exit(); // Ensure being used in DataTables env.
+<?php if (!defined('DATATABLES')) {
+exit(); // Ensure being used in DataTables env.	
+}  else {
+
+}
 
 // Enable error reporting for debugging (remove for production)
 error_reporting(E_ALL);
@@ -17,5 +21,3 @@ $sql_details = array(
 	"db"   => "dynamicWeb",       // Database name
 	"dsn"  => "charset=utf8"        // PHP DSN extra information. Set as `charset=utf8` if you are using MySQL
 );
-
-
